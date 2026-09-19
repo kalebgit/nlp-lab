@@ -1,0 +1,19 @@
+[project]
+name = "lab-nlp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.0.1",
+    "evaluate>=0.4.6",
+    "gensim>=4.4.0",
+    "jupyter>=1.1.1",
+    "peft>=0.21.0",
+    "scikit-learn>=1.9.1",
+    "seqeval>=1.2.2",
+    "torch>=2.14.0",
+    "transformers>=5.17.0",
+    "trl>=1.13.0",
+]
